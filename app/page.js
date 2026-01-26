@@ -18,7 +18,7 @@ import { Search, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
  */
 
 const PODCAST_URL = "https://example.com/podcast";
-const INSTAGRAM_URL = "https://instagram.com/yourhandle";
+const INSTAGRAM_URL = "https://www.instagram.com/optimizingsports/";
 const LOGO_SRC = "/logo.png"; // Lege dein Logo in den public-Ordner als logo.png
 
 const BLOG_POSTS = [
