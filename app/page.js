@@ -184,10 +184,7 @@ export default function OptimizingSportsOnePager() {
                   Blog lesen
                 </a>
               </div>
-              <div className="mt-6 text-xs text-white/50">
-                Tipp: Links oben in der Datei anpassen (PODCAST_URL / INSTAGRAM_URL).
-              </div>
-            </div>
+                         </div>
 
             <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6 shadow-2xl shadow-black/50">
               <div className="flex items-center justify-between">
@@ -217,16 +214,12 @@ export default function OptimizingSportsOnePager() {
           <SectionHeader
             eyebrow="Podcast"
             title="Direkt zur aktuellen Folge"
-            subtitle="Ein Klick und du bist drin. Verlinke hier Spotify, Apple Podcasts, YouTube oder deine Podcast-Seite."
+            subtitle="Ein Klick und du bist drin."
           />
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <div className="md:col-span-2 rounded-3xl border border-white/10 bg-white/[0.03] p-6">
               <div className="text-sm font-semibold">Podcast öffnen</div>
-              <p className="mt-2 text-sm text-white/70">
-                Trage deinen Podcast-Link oben ein. Optional kannst du hier später einen
-                eingebetteten Player ergänzen.
-              </p>
-              <div className="mt-5 flex flex-wrap gap-3">
+                           <div className="mt-5 flex flex-wrap gap-3">
                 <a
                   href={PODCAST_URL}
                   target="_blank"
@@ -350,15 +343,13 @@ export default function OptimizingSportsOnePager() {
           <SectionHeader
             eyebrow="Instagram"
             title="Clips, Reels & Updates"
-            subtitle="Ein Klick führt dich zu Instagram. Wenn du willst, kann ich dir auch ein Grid/Feed später einbauen."
+            subtitle="Ein Klick führt dich zu Instagram."
           />
 
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             <div className="md:col-span-2 rounded-3xl border border-white/10 bg-white/[0.03] p-6">
               <div className="text-sm font-semibold">Zum Profil</div>
-              <p className="mt-2 text-sm text-white/70">
-                Verlinke dein Profil, z.B. instagram.com/optimizing.sports
-              </p>
+            
               <div className="mt-5">
                 <a
                   href={INSTAGRAM_URL}
