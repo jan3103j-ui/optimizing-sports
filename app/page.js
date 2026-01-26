@@ -164,11 +164,10 @@ export default function OptimizingSportsOnePager() {
           >
             <div>
               <h1 className="text-3xl font-semibold tracking-tight md:text-5xl">
-                Schwarz. Klar. Performance.
+                Clean. Lean. Performance.
               </h1>
               <p className="mt-4 max-w-prose text-base text-white/70 md:text-lg">
-                Optimizing Sports bündelt Podcast, Blog und Socials an einem Ort – clean,
-                modern und ohne Schnickschnack.
+                Optimizing Sports bündelt Podcast, Blog und Socials an einem Ort – Von Sportlern für Sportler - Verbessere dich jetzt
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <a
@@ -197,7 +196,7 @@ export default function OptimizingSportsOnePager() {
                   desc="Neue Folgen, Gäste, Deep Dives"
                   href={PODCAST_URL}
                 />
-                <QuickCard title="Blog" desc="Artikel & Notizen" href="#blog" />
+                <QuickCard title="Blog" desc="Kurzartikel zu Themen rund um den SPort" href="#blog" />
                 <QuickCard
                   title="Instagram"
                   desc="Clips, Reels & Updates"
@@ -365,7 +364,7 @@ export default function OptimizingSportsOnePager() {
             <div className="rounded-3xl border border-white/10 bg-white/[0.03] p-6">
               <div className="text-sm font-semibold">Kontakt</div>
               <p className="mt-2 text-sm text-white/70">
-                Schreib mir über Instagram oder verlinke hier später eine Mail-Adresse.
+                Schreib mir über Instagram.
               </p>
               <div className="mt-4 rounded-2xl border border-white/10 bg-black/30 p-4">
                 <div className="text-xs text-white/60">Optional</div>
