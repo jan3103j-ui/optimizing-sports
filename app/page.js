@@ -196,7 +196,7 @@ export default function OptimizingSportsOnePager() {
                   desc="Neue Folgen, Gäste, Deep Dives"
                   href={PODCAST_URL}
                 />
-                <QuickCard title="Blog" desc="Kurzartikel zu Themen rund um den SPort" href="#blog" />
+                <QuickCard title="Blog" desc="Kurzartikel zu Themen rund um den Sport" href="#blog" />
                 <QuickCard
                   title="Instagram"
                   desc="Clips, Reels & Updates"
