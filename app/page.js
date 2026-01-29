@@ -17,7 +17,7 @@ import { Search, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
  * 3) Ergänze BLOG_POSTS (Titel/Datum/Teaser/Inhalt)
  */
 
-const PODCAST_URL = "https://example.com/podcast";
+const PODCAST_URL = "https://open.spotify.com/show/5Aws1qyU1RlXqLQRymKjAq";
 const INSTAGRAM_URL = "https://www.instagram.com/optimizingsports/";
 const LOGO_SRC = "/logo.png"; // Lege dein Logo in den public-Ordner als logo.png
 
